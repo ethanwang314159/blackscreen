@@ -73,3 +73,15 @@ html {
 .modal-container a {
   color: #fff;
 }
+
+.feather-info {
+  opacity: 0;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+}
+
+.feather-info-hover, .feather-info:hover {
+  opacity: 1;
+}
