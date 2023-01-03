@@ -6,7 +6,6 @@ modal.addEventListener('click', function (event) {
   modalId.classList.add('open');
 
   var exits = modalId.querySelectorAll('.modal-exit');
-  console.log(exits)
   exits.forEach(function (exit) {
     exit.addEventListener('click', function (event) {
       event.preventDefault();
