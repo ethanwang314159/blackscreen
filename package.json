@@ -8,5 +8,8 @@
     "black",
     "screen",
     "app"
-  ]
+  ],
+  "scripts": {
+    "pages": "cp -r ./src ./public"
+  }
 }
